@@ -1,4 +1,6 @@
-LottieInteractivity.create({
+document.addEventListener("load", function() {
+    console.log('load')
+    LottieInteractivity.create({
     player: '#lottie-amit',
     mode: 'scroll',
     actions: [
@@ -9,3 +11,4 @@ LottieInteractivity.create({
       },
     ]
   });
+});
