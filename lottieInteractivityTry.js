@@ -1,3 +1,5 @@
+console.log('lottieInteractivityTry')
+
 document.addEventListener("load", function() {
     console.log('load')
     LottieInteractivity.create({
